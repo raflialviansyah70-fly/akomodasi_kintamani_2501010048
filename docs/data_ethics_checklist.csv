@@ -1,0 +1,9 @@
+butir,status (Ya/Tidak),bukti
+"Sumber data diizinkan (OSM Overpass + BPS), tidak memakai OTA/Google Maps",Ya,Lihat docs/provenance.json
+Atribusi (c) OpenStreetMap contributors ada di README dan laporan,Ya,Tautkan bagian README/laporan
+Lisensi ODbL dipahami dan dicatat,Ya,docs/provenance.json
+"Tidak mengambil data kontak pribadi (telepon, email, media sosial)",Ya,Fungsi ratakan() tidak memuat kolom tsb
+"Request dibatasi: query dijalankan 1-2 kali, ada retry dengan jeda",Ya,Sel akuisisi di notebook
+User-Agent mengidentifikasi pengambil data,Ya,Sel setup di notebook
+Berkas data/raw tidak diubah (hash MD5 dicatat),Ya,docs/provenance.json
+Tidak ada penghapusan data diam-diam; keputusan cleaning dicatat,Ya,Bagian 4 laporan
